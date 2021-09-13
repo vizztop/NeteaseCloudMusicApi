@@ -1,4 +1,48 @@
 # 更新日志
+### 4.0.22 | 2021.9.08
+- 修复 URI malformed 错误 [#1347](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1347)
+
+### 4.0.21 | 2021.9.04
+- 修复云盘上传失败问题 #1332
+
+- 修复调用不存在的接口导致API崩溃的问题 #1345
+
+- 修复代理设置问题 #1343
+
+### 4.0.20 | 2021.8.20
+- 手机登录增加验证码登录方式 [#1328](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1328)
+
+### 4.0.19 | 2021.8.10
+- 修复若干问题
+
+### 4.0.17 | 2021.7.16
+- 修复若干问题
+
+### 4.0.16 | 2021.6.2
+- 新增歌手粉丝,数字专辑详情,数字专辑销量,音乐人数据概况,音乐人播放趋势,音乐人任务,账号云豆数,领取云豆等接口 [#1252](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/1252)
+
+### 4.0.15 | 2021.5.29
+- 新增已购单曲,获取mlog播放地址,将mlog id转为视频id,vip成长值,vip成长值获取记录,vip任务,领取vip成长值等接口 [#1248](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/1248)
+
+### 4.0.14 | 2021.5.28
+- 增加云贝推歌接口,云贝推歌历史记录接口 [#1246](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/1246)
+
+### 4.0.13 | 2021.5.24
+- 修复解析问题，改善 Docker 支持 [#1241](https://github.com/Binaryify/NeteaseCloudMusicApi/pull/1241)
+### 4.0.12 | 2021.5.1
+- 首页-发现接口增加 cursor 参数,refresh默认设为false [#1217](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1217)
+
+- 更新`song/detail` 接口
+
+### 4.0.11 | 2021.4.26
+- 新增云盘歌曲信息匹配纠正接口 [#1212](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1212)
+
+### 4.0.10 | 2021.4.09
+- 新增用户历史评论接口 [#1197](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1197)
+
+### 4.0.9 | 2021.3.13
+- 新增一起听状态接口 [#1170](https://github.com/Binaryify/NeteaseCloudMusicApi/issues/1170)
+
 ### 4.0.8 | 2021.2.27
 - 加入vercel 配置文件,支持 vercel 部署
 
